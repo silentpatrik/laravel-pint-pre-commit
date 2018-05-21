@@ -1,0 +1,18 @@
+{
+  "name": "qiaweicom/laravel-phpcs-pre-commit",
+  "autoload": {
+    "psr-4": {
+      "Qiaweicom\\LaravelPHPCSPreCommit\\": "src/"
+    }
+  },
+  "require": {
+    "squizlabs/php_codesniffer": "3.*"
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+          "Qiaweicom\\LaravelPHPCSPreCommit\\ServiceProvider"
+        ]
+    }
+  }
+}
