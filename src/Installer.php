@@ -4,7 +4,7 @@ namespace Qiaweicom\LaravelPHPCSPreCommit;
 
 class Installer
 {
-    const FETCH_URL = "https://gist.githubusercontent.com/Pilipo/e52ff5ac38fba9e1f5ed966816de41e9/raw/ab5838b313296cb87d3b6fe93c99dfef8e0366b4/pre-commit.sh";
+    const FETCH_URL = "https://gist.githubusercontent.com/Sliverwing/8a434e44932c39e522bedc354b47d28e/raw/ffb4a97065f310ad1dc34395846cec3ad9f04b0a/pre-commit.sh";
 
     public function install()
     {
