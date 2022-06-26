@@ -1,15 +1,15 @@
 <?php
 
-namespace Qiaweicom\LaravelPHPCSPreCommit;
+namespace AmphiBee\LaravelPintPreCommit;
 
 use Illuminate\Console\Command;
 
 class InstallCommand extends Command
 {
 
-    protected $signature = 'php-cs:install';
+    protected $signature = 'pint:install';
 
-    protected $description = 'Install and integrate PHP_CodeSniffer to git hook';
+    protected $description = 'Install and integrate Pint to git hook';
 
     public function handle()
     {

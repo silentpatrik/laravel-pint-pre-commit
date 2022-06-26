@@ -1,6 +1,6 @@
 <?php
 
-namespace Qiaweicom\LaravelPHPCSPreCommit;
+namespace AmphiBee\LaravelPintPreCommit;
 
 use Illuminate\Support\ServiceProvider as Base;
 

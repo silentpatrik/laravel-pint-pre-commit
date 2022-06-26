@@ -1,10 +1,10 @@
 <?php
 
-namespace Qiaweicom\LaravelPHPCSPreCommit;
+namespace AmphiBee\LaravelPintPreCommit;
 
 class Installer
 {
-    const FETCH_URL = "https://gist.githubusercontent.com/Sliverwing/8a434e44932c39e522bedc354b47d28e/raw/ffb4a97065f310ad1dc34395846cec3ad9f04b0a/pre-commit.sh";
+    const FETCH_URL = "https://gist.githubusercontent.com/ogorzalka/2d355e35c9308cd274ce3232de4cd19c/raw/46d0a85eb906b0da2b7374721b5098ba6007cb1e/pre-commit.sh";
 
     public function install()
     {

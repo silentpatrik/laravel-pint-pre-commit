@@ -1,6 +1,6 @@
 <?php
 
-namespace Qiaweicom\LaravelPHPCSPreCommit;
+namespace AmphiBee\LaravelPintPreCommit;
 
 use Composer\Script\Event;
 
@@ -12,7 +12,7 @@ class ComposerInstaller
         $installer = new Installer();
         $installer->install();
 
-        echo "Installed!\n";
+        echo "Pint Pre-hook installed!\n";
     }
 
 }

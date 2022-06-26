@@ -1,9 +1,9 @@
-# qiaweicom/laravel-phpcs-pre-commit
+# amphibee/laravel-pint-pre-commit
 
 ## Install
 
 ```
-composer require qiaweicom/laravel-phpcs-pre-commit --dev
+composer require amphibee/laravel-pint-pre-commit --dev
 ```
 
 ## Credits

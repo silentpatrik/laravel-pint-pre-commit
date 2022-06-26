@@ -1,18 +1,18 @@
 {
-  "name": "qiaweicom/laravel-phpcs-pre-commit",
+  "name": "amphibee/laravel-pint-pre-commit",
   "autoload": {
     "psr-4": {
-      "Qiaweicom\\LaravelPHPCSPreCommit\\": "src/"
+      "AmphiBee\\LaravelPintPreCommit\\": "src/"
     }
   },
   "require": {
-    "laravel/framework": "~5.5",
-    "squizlabs/php_codesniffer": "3.*"
+    "laravel/framework": "~8.0",
+    "laravel/pint": "^0.2.0"
   },
   "extra": {
     "laravel": {
         "providers": [
-          "Qiaweicom\\LaravelPHPCSPreCommit\\ServiceProvider"
+          "AmphiBee\\LaravelPintPreCommit\\ServiceProvider"
         ]
     }
   }
