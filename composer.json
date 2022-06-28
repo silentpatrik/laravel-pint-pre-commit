@@ -1,18 +1,27 @@
 {
   "name": "amphibee/laravel-pint-pre-commit",
+  "description": "Laravel Pint pre-commit hook allow you to analyse your code with the awesome Laravel Pint.",
+  "keywords": ["Laravel", "Pint", "Git", "Hook"],
+  "license": "MIT",
+  "homepage": "https://github.com/AmphiBee/laravel-pint-pre-commit",
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/AmphiBee/laravel-pint-pre-commit/issues",
+    "source": "https://github.com/AmphiBee/laravel-pint-pre-commit"
+  },
+  "require": {
+    "laravel/pint": "^0.2.0"
+  },
   "autoload": {
     "psr-4": {
       "AmphiBee\\LaravelPintPreCommit\\": "src/"
     }
   },
-  "require": {
-    "laravel/pint": "^0.2.0"
-  },
   "extra": {
     "laravel": {
-        "providers": [
-          "AmphiBee\\LaravelPintPreCommit\\ServiceProvider"
-        ]
+      "providers": [
+        "AmphiBee\\LaravelPintPreCommit\\ServiceProvider"
+      ]
     }
   }
 }
