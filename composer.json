@@ -10,7 +10,7 @@
     "source": "https://github.com/AmphiBee/laravel-pint-pre-commit"
   },
   "require": {
-    "laravel/pint": "^1.4"
+    "laravel/pint": "^1.5"
   },
   "autoload": {
     "psr-4": {
